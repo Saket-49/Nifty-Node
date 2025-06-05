@@ -1,7 +1,6 @@
 import chalk from 'chalk';
 import https from 'https';
 
-
 function getJoke() {
   const url = 'https://official-joke-api.appspot.com/random_joke';
   https.get(url, (res)=>{
